@@ -25,7 +25,7 @@ SECRET_KEY = 'g&^ngjf^1tap(@jx#hpb@etuq#rt43p=z%=u+n^x$jvi06f3@3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['tmp0ral.pythonanywhere.com]
 
 
 # Application definition
