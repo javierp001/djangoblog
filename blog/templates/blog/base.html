@@ -17,6 +17,9 @@
 
 <body>
     <div class="page-header">
+        <a href="{% url 'post_new' %}" class="top-menu">
+            <span class="glyphicon glyphicon-plus"></span>
+        </a>
         <h1 style="color: darkcyan">
             <a href="/">Blogs</a>
         </h1>
@@ -25,8 +28,7 @@
     <div class="content container">
         <div class="row">
             <div class="col-md-8">
-                {% block content %}
-                {% endblock %}
+                {% block content %} {% endblock %}
             </div>
         </div>
     </div>
